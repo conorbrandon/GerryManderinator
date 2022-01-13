@@ -1,0 +1,6 @@
+mapshaper -i ./inDissolve.json -dissolve District sum-fields=TOTAL_POP,TOTAL_ONE_RACE,TOTAL_ONE_WHITE,TOTAL_ONE_BLACK,TOTAL_ONE_INDIAN,TOTAL_ONE_ASIAN,TOTAL_ONE_PACIFIC,TOTAL_ONE_OTHER,TOTAL_HISPANIC,TOTAL_MIXED,CVAP_TOTAL_POP,CVAP_TOTAL_HISPANIC,CVAP_TOTAL_ONE_WHITE,CVAP_TOTAL_ONE_BLACK,CVAP_TOTAL_ONE_INDIAN,CVAP_TOTAL_ONE_ASIAN,CVAP_TOTAL_ONE_PACIFIC,VAP_TOTAL_POP,VAP_TOTAL_ONE_RACE,VAP_TOTAL_ONE_WHITE,VAP_TOTAL_ONE_BLACK,VAP_TOTAL_ONE_INDIAN,VAP_TOTAL_ONE_ASIAN,VAP_TOTAL_ONE_PACIFIC,VAP_TOTAL_ONE_OTHER,VAP_TOTAL_MIXED,VAP_TOTAL_HISPANIC  -o ./outDissolve.json
+mapshaper -i ./inDissolve.json -dissolve District,PCTNUM,COUNTY sum-fields=TOTAL_POP -o ./outDissolvePr.json
+node serverAlgorithmMeasures/splitCounties.js
+node serverAlgorithmMeasures/addElectionsToDissolvedPr.js $1
+mapshaper -i ./outDissolvePr.json -dissolve District sum-fields=HOU20D,HOU20R,PRE20D,PRE20R,USS20D,USS20R,USS18D,USS18R,ATG18D,ATG18R -o ./outDissolvePr.json
+node serverAlgorithmMeasures/mergeWithElections.js

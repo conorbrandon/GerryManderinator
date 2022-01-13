@@ -1,0 +1,4 @@
+node serverAlgorithmMeasures/equalPop.js
+node serverAlgorithmMeasures/polsbyPopper.js
+node serverAlgorithmMeasures/efficiencyGap.js
+node serverAlgorithmMeasures/devAreaFromEnacted.js $1

@@ -1,0 +1,52 @@
+# data
+data/*Data/*.json
+data/electionData/*/*
+data/geoData/*/*
+data/censusData/*/*
+cleanData/*/*.json
+data/censusData/node_modules
+.DS_Store
+data/censusData/cvapB*.csv
+!*package*.json
+*node_modules
+archive/cleanData/*/*.json
+
+Spring/src/main/resources/db-load/*/census*
+Spring/src/main/resources/db-load/*/districtnum-cb.json
+Spring/*Dissolve*.json
+Spring/outMeasures.txt
+
+# dependencies
+/node_modules
+/Spring/node_modules/
+/.pnp
+.pnp.js
+/Spring/target/
+/Spring/.idea/
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.factorypath
+.vscode
+
+#.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Spring/.project
+Spring/.settings/org.eclipse.m2e.core.prefs
+Spring/.classpath
+Spring/.settings/org.eclipse.core.resources.prefs
+Spring/.settings/org.eclipse.jdt.apt.core.prefs
+Spring/.settings/org.eclipse.jdt.core.prefs
+Spring/.factorypath

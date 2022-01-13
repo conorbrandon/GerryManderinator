@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "geojson-geometries-lookup":"^0.5.0",
+        "@turf/area": "^6.5.0",
+        "@turf/intersect": "^6.5.0",
+        "csv-parser": "^3.0.0"
+    }
+}

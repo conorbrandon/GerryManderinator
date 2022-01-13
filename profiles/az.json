@@ -1,0 +1,21 @@
+{
+    "GerrymanderingMCMC.py:379(generate_alternative_plans)": 1754.596499331933,
+    "GerrymanderingMCMC.py:235(recombination_of_districts)": 1743.1139685054407,
+    "GerrymanderingMCMC.py:197(__is_valid_district_plan)": 1117.4502639816756,
+    "GerrymanderingMCMC.py:190(__district_size)": 785.9319583890033,
+    "GerrymanderingMCMC.py:195(<lambda>)": 643.9702466119485,
+    "GerrymanderingMCMC.py:301(__random_spanning_tree)": 303.5193126550865,
+    "GerrymanderingMCMC.py:182(__get_district_subgraph)": 40.5844472227524,
+    "GerrymanderingMCMC.py:175(__get_district_nodes)": 39.160439205955335,
+    "GerrymanderingMCMC.py:180(<listcomp>)": 39.03600858942555,
+    "GerrymanderingMCMC.py:163(__find_neighboring_district)": 26.857428135140285,
+    "GerrymanderingMCMC.py:220(__update_new_districts_with_cut)": 14.41760660431379,
+    "GerrymanderingMCMC.py:157(__random_district_label)": 2.2571853407138733,
+    "GerrymanderingMCMC.py:170(<listcomp>)": 0.8598383279251793,
+    "GerrymanderingMCMC.py:1(<module>)": 0.748764267990075,
+    "GerrymanderingMCMC.py:21(__init__)": 0.030345676655850282,
+    "GerrymanderingMCMC.py:74(read_graph)": 0.02999121969841485,
+    "GerrymanderingMCMC.py:96(__load_json)": 0.006314945600305607,
+    "GerrymanderingMCMC.py:15": 0.0,
+    "averageSeconds": 1755.3781044092432
+}
