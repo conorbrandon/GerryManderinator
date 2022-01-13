@@ -19,7 +19,7 @@
 ## Requirements<a name="requirements"></a>
 - Java 16+ (may need to increase JVM ram)
 
-## How to run<a name="setup"></a>
+## How to run<a name="run"></a>
 
 ### Setup
 - Clone this repository
