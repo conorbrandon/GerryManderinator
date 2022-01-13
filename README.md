@@ -1,10 +1,10 @@
 # GerryManderinator
 
-![Home Screen](/demo/home.png)
-
 [Requirements](#requirements)
 
 [How to run](#run)
+
+![Home Screen](/demo/home.png)
 
 ## Examples
 
