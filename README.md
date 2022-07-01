@@ -23,7 +23,7 @@
 
 ### Setup
 - Clone this repository
-- Download the Census block information from: http://conorbrandon.com/gerryData.zip
+- Download the Census block information from: https://conorbrandon.com/gerryData
     - unzip
     - the files are too large for Github!
 - Place each of the 3 `.json` files from each directory in their respective directory in `Spring/src/main/resources/db-load/{state}/` (where state is AZ, GA, or NV)
@@ -42,7 +42,7 @@
 
 ### Starting the server
 - Run the webpack with: `npm run-script watch`
-- To start the server type in the second terminal window: `./mvnw spring-boot:run`
-    - If you want to up the JVM ram (to 8gb) just for this run, instead type: `./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-Xms4096m -Xmx8192m"`
+- To start the server type in the second terminal window: `./mvnw -Plocal spring-boot:run`
+    - If you want to up the JVM ram (to 8gb) just for this run, instead type: `./mvnw -Plocal spring-boot:run -Dspring-boot.run.jvmArguments="-Xms4096m -Xmx8192m"`
     - this is necessary for Georgia. There's a lot of census blocks!
 - Finally open a web browser and go to http://localhost:8080/#
